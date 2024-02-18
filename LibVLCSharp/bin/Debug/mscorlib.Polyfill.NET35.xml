@@ -1,0 +1,1185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mscorlib.Polyfill.NET35</name>
+    </assembly>
+    <members>
+        <member name="T:System.Resources.Strings">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.Arg_EnumIllegalVal">
+            <summary>
+              查找类似 Illegal enum value: {0}. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.Argument_EmptyValue">
+            <summary>
+              查找类似 Value cannot be empty. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.ArgumentNull_Generic">
+            <summary>
+              查找类似 Value cannot be null. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.ArgumentOutOfRange_NeedNonNegOrNegative1">
+            <summary>
+              查找类似 Number must be either non-negative and less than or equal to Int32.MaxValue or -1. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_AlreadyExists_Name">
+            <summary>
+              查找类似 Cannot create &apos;{0}&apos; because a file or directory with the same name already exists. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_FileExists_Name">
+            <summary>
+              查找类似 The file &apos;{0}&apos; already exists. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_FileNotFound">
+            <summary>
+              查找类似 Unable to find the specified file. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_FileNotFound_FileName">
+            <summary>
+              查找类似 Could not find file &apos;{0}&apos;. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_PathNotFound_NoPathName">
+            <summary>
+              查找类似 Could not find a part of the path. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_PathNotFound_Path">
+            <summary>
+              查找类似 Could not find a part of the path &apos;{0}&apos;. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_PathTooLong">
+            <summary>
+              查找类似 The specified file name or path is too long, or a component of the specified path is too long. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_PathTooLong_Path">
+            <summary>
+              查找类似 The path &apos;{0}&apos; is too long, or a component of the specified path is too long. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_SharingViolation_File">
+            <summary>
+              查找类似 The process cannot access the file &apos;{0}&apos; because it is being used by another process. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.IO_SharingViolation_NoFileName">
+            <summary>
+              查找类似 The process cannot access the file because it is being used by another process. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.net_sockets_invalid_optionValue_all">
+            <summary>
+              查找类似 The specified value is not valid. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.SpinWait_SpinUntil_ArgumentNull">
+            <summary>
+              查找类似 The condition argument is null. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.SpinWait_SpinUntil_TimeoutWrong">
+            <summary>
+              查找类似 The timeout must represent a value between -1 and Int32.MaxValue, inclusive. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.UnauthorizedAccess_IODenied_NoPathName">
+            <summary>
+              查找类似 Access to the path is denied. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:System.Resources.Strings.UnauthorizedAccess_IODenied_Path">
+            <summary>
+              查找类似 Access to the path &apos;{0}&apos; is denied. 的本地化字符串。
+            </summary>
+        </member>
+        <member name="T:System.ArgumentNullExceptionEx">
+            <summary>
+            The exception that is thrown when a null reference (Nothing in Visual Basic) is passed
+            to a method that does not accept it as a valid argument.
+            </summary>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.ArgumentNullException"/> class.
+            </summary>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.ArgumentNullException"/> class with
+            the name of the parameter that causes this exception.
+            </summary>
+            <param name="paramName">The name of the parameter that caused the exception.</param>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.ArgumentNullException"/> class with a
+            specified error message and the exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for this exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception,
+            or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.#ctor(System.String,System.String)">
+            <summary>
+            Initializes an instance of the <see cref="T:System.ArgumentNullException"/> class with a
+            specified error message and the name of the parameter that causes this exception.
+            </summary>
+            <param name="paramName">The name of the parameter that caused the exception.</param>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.ArgumentNullException"/> class with serialized data.
+            </summary>
+            <param name="info">The object that holds the serialized object data.</param>
+            <param name="context">An object that describes the source or destination of the serialized data.</param>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.ThrowIfNull(System.Object,System.String)">
+            <summary>Throws an <see cref="T:System.ArgumentNullException"/> if <paramref name="argument"/> is null.</summary>
+            <param name="argument">The reference type argument to validate as non-null.</param>
+            <param name="paramName">The name of the parameter with which <paramref name="argument"/> corresponds.</param>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.ThrowIfNull(System.Void*,System.String)">
+            <summary>Throws an <see cref="T:System.ArgumentNullException"/> if <paramref name="argument"/> is null.</summary>
+            <param name="argument">The pointer argument to validate as non-null.</param>
+            <param name="paramName">The name of the parameter with which <paramref name="argument"/> corresponds.</param>
+        </member>
+        <member name="M:System.ArgumentNullExceptionEx.ThrowIfNull(System.IntPtr,System.String)">
+            <summary>Throws an <see cref="T:System.ArgumentNullException"/> if <paramref name="argument"/> is null.</summary>
+            <param name="argument">The pointer argument to validate as non-null.</param>
+            <param name="paramName">The name of the parameter with which <paramref name="argument"/> corresponds.</param>
+        </member>
+        <member name="T:System.Collections.Generic.IReadOnlyCollection`1">
+            <summary>
+            Represents a strongly-typed, read-only collection of elements.
+            </summary>
+            <typeparam name="T">The type of the elements.</typeparam>
+        </member>
+        <member name="P:System.Collections.Generic.IReadOnlyCollection`1.Count">
+            <summary>
+            Gets the number of elements in the collection.
+            </summary>
+            <value>The number of elements in the collection.</value>
+        </member>
+        <member name="T:System.Collections.Generic.IReadOnlyDictionary`2">
+            <summary>
+            Represents a generic read-only collection of key/value pairs.
+            </summary>
+            <typeparam name="TKey">The type of keys in the read-only dictionary.</typeparam>
+            <typeparam name="TValue">The type of values in the read-only dictionary.</typeparam>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)">
+            <summary>
+            Determines whether the read-only dictionary contains an element that has the specified key.
+            </summary>
+            <param name="key">The key to locate.</param>
+            <returns><see langword="true"/> if the read-only dictionary contains an element that has the specified key; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)">
+            <summary>
+            Gets the value that is associated with the specified key.
+            </summary>
+            <param name="key">The key to locate.</param>
+            <param name="value">When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <paramref name="value"/> parameter. This parameter is passed uninitialized.</param>
+            <returns>true if the object that implements the <see cref="T:System.Collections.Generic.IReadOnlyDictionary`2"/> interface contains an element that has the specified key; otherwise, false.</returns>
+        </member>
+        <member name="P:System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)">
+            <summary>
+            Gets the element that has the specified key in the read-only dictionary.
+            </summary>
+            <param name="key">The key to locate.</param>
+            <returns>The element that has the specified key in the read-only dictionary.</returns>
+        </member>
+        <member name="P:System.Collections.Generic.IReadOnlyDictionary`2.Keys">
+            <summary>
+            Gets an enumerable collection that contains the keys in the read-only dictionary.
+            </summary>
+            <value>An enumerable collection that contains the keys in the read-only dictionary.</value>
+        </member>
+        <member name="P:System.Collections.Generic.IReadOnlyDictionary`2.Values">
+            <summary>
+            Gets an enumerable collection that contains the values in the read-only dictionary.
+            </summary>
+            <value>An enumerable collection that contains the values in the read-only dictionary.</value>
+        </member>
+        <member name="T:System.Collections.Generic.IReadOnlyList`1">
+            <summary>
+            Represents a read-only collection of elements that can be accessed by index.
+            </summary>
+            <typeparam name="T">The type of elements in the read-only list.</typeparam>
+        </member>
+        <member name="P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)">
+            <summary>
+            Gets the element at the specified index in the read-only list.
+            </summary>
+            <param name="index">The zero-based index of the element to get.</param>
+            <returns>The element at the specified index in the read-only list.</returns>
+        </member>
+        <member name="T:System.Collections.Generic.IReadOnlySet`1">
+            <summary>
+            Provides a readonly abstraction of a set.
+            </summary>
+            <typeparam name="T">The type of elements in the set.</typeparam>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.Contains(`0)">
+            <summary>
+            Determines if the set contains a specific item
+            </summary>
+            <param name="item">The item to check if the set contains.</param>
+            <returns><see langword="true" /> if found; otherwise <see langword="false" />.</returns>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Determines whether the current set is a proper (strict) subset of a specified collection.
+            </summary>
+            <param name="other">The collection to compare to the current set.</param>
+            <returns><see langword="true" /> if the current set is a proper subset of other; otherwise <see langword="false" />.</returns>
+            <exception cref="T:System.ArgumentNullException">other is <see langword="null" />.</exception>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Determines whether the current set is a proper (strict) superset of a specified collection.
+            </summary>
+            <param name="other">The collection to compare to the current set.</param>
+            <returns><see langword="true" /> if the collection is a proper superset of other; otherwise <see langword="false" />.</returns>
+            <exception cref="T:System.ArgumentNullException">other is <see langword="null" />.</exception>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Determine whether the current set is a subset of a specified collection.
+            </summary>
+            <param name="other">The collection to compare to the current set.</param>
+            <returns><see langword="true" /> if the current set is a subset of other; otherwise <see langword="false" />.</returns>
+            <exception cref="T:System.ArgumentNullException">other is <see langword="null" />.</exception>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Determine whether the current set is a super set of a specified collection.
+            </summary>
+            <param name="other">The collection to compare to the current set</param>
+            <returns><see langword="true" /> if the current set is a subset of other; otherwise <see langword="false" />.</returns>
+            <exception cref="T:System.ArgumentNullException">other is <see langword="null" />.</exception>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Determines whether the current set overlaps with the specified collection.
+            </summary>
+            <param name="other">The collection to compare to the current set.</param>
+            <returns><see langword="true" /> if the current set and other share at least one common element; otherwise, <see langword="false" />.</returns>
+            <exception cref="T:System.ArgumentNullException">other is <see langword="null" />.</exception>
+        </member>
+        <member name="M:System.Collections.Generic.IReadOnlySet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Determines whether the current set and the specified collection contain the same elements.
+            </summary>
+            <param name="other">The collection to compare to the current set.</param>
+            <returns><see langword="true" /> if the current set is equal to other; otherwise, <see langword="false" />.</returns>
+            <exception cref="T:System.ArgumentNullException">other is <see langword="null" />.</exception>
+        </member>
+        <member name="T:System.EnumEx">
+            <summary>
+            Provides the base class for enumerations.
+            </summary>
+        </member>
+        <member name="M:System.EnumEx.TryParse``1(System.String,``0@)">
+            <summary>
+            Converts the string representation of the name or numeric value of one or more enumerated constants
+            to an equivalent enumerated object. The return value indicates whether the conversion succeeded.
+            </summary>
+            <typeparam name="TEnum">The enumeration type to which to convert <paramref name="value"/>.</typeparam>
+            <param name="value">The case-sensitive string representation of the enumeration name or underlying value to convert.</param>
+            <param name="result">When this method returns, contains an object of type <typeparamref name="TEnum"/> whose
+            value is represented by <paramref name="value"/> if the parse operation succeeds. If the parse operation fails, contains the
+            default value of the underlying type of <typeparamref name="TEnum"/>. This parameter is passed uninitialized.</param>
+            <returns><see langword="true"/> if the <paramref name="value"/> parameter was converted successfully; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="M:System.EnumEx.TryParse``1(System.String,System.Boolean,``0@)">
+            <summary>
+            Converts the string representation of the name or numeric value of one or more enumerated constants
+            to an equivalent enumerated object. A parameter specifies whether the operation is case-sensitive.
+            The return value indicates whether the conversion succeeded.
+            </summary>
+            <typeparam name="TEnum">The enumeration type to which to convert <paramref name="value"/>.</typeparam>
+            <param name="value">The string representation of the enumeration name or underlying value to convert.</param>
+            <param name="ignoreCase"><see langword="true"/> to ignore case; <see langword="false"/> to consider case.</param>
+            <param name="result">When this method returns, contains an object of type <typeparamref name="TEnum"/> whose
+            value is represented by <paramref name="value"/> if the parse operation succeeds. If the parse operation fails, contains the
+            default value of the underlying type of <typeparamref name="TEnum"/>. This parameter is passed uninitialized.</param>
+            <returns><see langword="true"/> if the <paramref name="value"/> parameter was converted successfully; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="T:System.EnvironmentEx">
+            <summary>
+            Provides information about, and means to manipulate, the current environment and platform. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:System.EnvironmentEx.IsSingleProcessor">
+            <summary>
+            Gets whether the current machine has only a single processor.
+            </summary>
+        </member>
+        <member name="F:System.EnvironmentEx.Is64BitProcess">
+            <summary>
+            Gets a value that indicates whether the current process is a 64-bit process.
+            </summary>
+            <value><see langword="true"/> if the process is 64-bit; otherwise, <see langword="false"/>.</value>
+        </member>
+        <member name="F:System.EnvironmentEx.Is64BitOperatingSystem">
+            <summary>
+            Gets a value that indicates whether the current operating system is a 64-bit operating system.
+            </summary>
+            <value><see langword="true"/> if the operating system is 64-bit; otherwise, <see langword="false"/>.</value>
+        </member>
+        <member name="T:System.EventHandlerEx`1">
+            <summary>
+            Represents the method that will handle an event when the event provides data.
+            </summary>
+            <typeparam name="TEventArgs">The type of the event data generated by the event.</typeparam>
+            <param name="sender">The source of the event.</param>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="T:System.IO.Win32Marshal">
+            <summary>
+            Provides static methods for converting from Win32 errors codes to exceptions, HRESULTS and error messages.
+            </summary>
+        </member>
+        <member name="M:System.IO.Win32Marshal.GetExceptionForLastWin32Error(System.String)">
+            <summary>
+            Converts, resetting it, the last Win32 error into a corresponding <see cref="T:System.Exception"/> object, optionally
+            including the specified path in the error message.
+            </summary>
+        </member>
+        <member name="M:System.IO.Win32Marshal.GetExceptionForWin32Error(System.Int32,System.String)">
+            <summary>
+            Converts the specified Win32 error into a corresponding <see cref="T:System.Exception"/> object, optionally
+            including the specified path in the error message.
+            </summary>
+        </member>
+        <member name="M:System.IO.Win32Marshal.MakeHRFromErrorCode(System.Int32)">
+            <summary>
+            If not already an HRESULT, returns an HRESULT for the specified Win32 error code.
+            </summary>
+        </member>
+        <member name="M:System.IO.Win32Marshal.TryMakeWin32ErrorCodeFromHR(System.Int32)">
+            <summary>
+            Returns a Win32 error code for the specified HRESULT if it came from FACILITY_WIN32
+            If not, returns the HRESULT unchanged
+            </summary>
+        </member>
+        <member name="T:System.IProgress`1">
+            <summary>Defines a provider for progress updates.</summary>
+            <typeparam name="T">The type of progress update value.</typeparam>
+        </member>
+        <member name="M:System.IProgress`1.Report(`0)">
+            <summary>Reports a progress update.</summary>
+            <param name="value">The value of the updated progress.</param>
+        </member>
+        <member name="T:System.Net.DnsEndPoint">
+            <summary>
+            Represents a network endpoint as a host name or a string representation of an IP address and a port number.
+            </summary>
+        </member>
+        <member name="M:System.Net.DnsEndPoint.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.DnsEndPoint"/> class with the host name or string representation of an IP address and a port number.
+            </summary>
+            <param name="host">The host name or a string representation of the IP address.</param>
+            <param name="port">The port number associated with the address, or 0 to specify any available port. <paramref name="port"/> is in host order.</param>
+        </member>
+        <member name="M:System.Net.DnsEndPoint.#ctor(System.String,System.Int32,System.Net.Sockets.AddressFamily)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.DnsEndPoint"/> class with the host name or string representation of an IP address, a port number, and an address family.
+            </summary>
+            <param name="host">The host name or a string representation of the IP address.</param>
+            <param name="port">The port number associated with the address, or 0 to specify any available port. port is in host order.</param>
+            <param name="addressFamily">One of the <see cref="P:System.Net.DnsEndPoint.AddressFamily"/> values.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="port"/> is less than <see cref="F:System.Net.IPEndPoint.MinPort"/>.<para>-or-</para><paramref name="port"/> is greater than <see cref="F:System.Net.IPEndPoint.MaxPort"/>.</exception>
+            <exception cref="T:System.ArgumentException">The <paramref name="host"/> parameter contains an empty string.<para>-or-</para><paramref name="addressFamily"/> is Unknown.</exception>
+        </member>
+        <member name="M:System.Net.DnsEndPoint.Equals(System.Object)">
+            <summary>
+            Compares two <see cref="T:System.Net.DnsEndPoint"/> objects.
+            </summary>
+            <param name="comparand">A <see cref="T:System.Net.DnsEndPoint"/> instance to compare to the current instance.</param>
+            <returns><see langword="true"/> if the two <see cref="T:System.Net.DnsEndPoint"/> instances are equal; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="M:System.Net.DnsEndPoint.GetHashCode">
+            <summary>
+            Returns a hash value for a <see cref="T:System.Net.DnsEndPoint"/>.
+            </summary>
+            <returns>An integer hash value for the <see cref="T:System.Net.DnsEndPoint"/>.</returns>
+        </member>
+        <member name="M:System.Net.DnsEndPoint.ToString">
+            <summary>
+            Returns the host name or string representation of the IP address and port number of the <see cref="T:System.Net.DnsEndPoint"/>.
+            </summary>
+            <returns>A string containing the address family, host name or IP address string, and the port number of the specified <see cref="T:System.Net.DnsEndPoint"/>.</returns>
+        </member>
+        <member name="P:System.Net.DnsEndPoint.Host">
+            <summary>
+            Gets the host name or string representation of the Internet Protocol (IP) address of the host.
+            </summary>
+            <value>A host name or string representation of an IP address.</value>
+        </member>
+        <member name="P:System.Net.DnsEndPoint.AddressFamily">
+            <summary>
+            Gets the Internet Protocol (IP) address family.
+            </summary>
+            <value>One of the <see cref="P:System.Net.DnsEndPoint.AddressFamily"/> values.</value>
+        </member>
+        <member name="P:System.Net.DnsEndPoint.Port">
+            <summary>
+            Gets the port number of the <see cref="T:System.Net.DnsEndPoint"/>.
+            </summary>
+            <value>An integer value in the range 0 to 0xffff indicating the port number of the <see cref="T:System.Net.DnsEndPoint"/>.</value>
+        </member>
+        <member name="T:System.OperatingSystemEx">
+            <summary>
+            Represents information about an operating system, such as the version and platform identifier. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystemEx.OSPlatform">
+            <summary>
+            Get the name of operating system platform
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.#ctor(System.PlatformID,System.Version)">
+            <summary>
+            Initializes a new instance of the <see cref="P:System.OperatingSystemEx.OSPlatform"/> class, using the specified platform identifier value and version object.
+            </summary>
+            <param name="platform">One of the <see cref="T:System.PlatformID"/> values that indicates the operating system platform.</param>
+            <param name="version">A <see cref="T:System.Version"/> object that indicates the version of the operating system.</param>
+        </member>
+        <member name="M:System.OperatingSystemEx.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Populates a <see cref="T:System.Runtime.Serialization.SerializationInfo"/> object with the data necessary to deserialize this instance.
+            </summary>
+            <param name="info">The object to populate with serialization information.</param>
+            <param name="context">The place to store and retrieve serialized data. Reserved for future use.</param>
+        </member>
+        <member name="P:System.OperatingSystemEx.Platform">
+            <summary>
+            Gets a <see cref="T:System.PlatformID"/> enumeration value that identifies the operating system platform.
+            </summary>
+            <value>One of the <see cref="T:System.PlatformID"/> values.</value>
+        </member>
+        <member name="P:System.OperatingSystemEx.ServicePack">
+            <summary>
+            Gets the service pack version represented by this <see cref="T:System.OperatingSystem"/> object.
+            </summary>
+            <value>The service pack version, if service packs are supported and at least one is installed; otherwise, an empty string ("").</value>
+        </member>
+        <member name="P:System.OperatingSystemEx.Version">
+            <summary>
+            Gets a <see cref="P:System.OperatingSystemEx.Version"/> object that identifies the operating system.
+            </summary>
+            <value>A <see cref="P:System.OperatingSystemEx.Version"/> object that describes the major version, minor version, build, and revision numbers for the operating system.</value>
+        </member>
+        <member name="M:System.OperatingSystemEx.Clone">
+            <summary>
+            Creates an <see cref="T:System.OperatingSystem"/> object that is identical to this instance.
+            </summary>
+            <returns>An <see cref="T:System.OperatingSystem"/> object that is a copy of this instance.</returns>
+        </member>
+        <member name="M:System.OperatingSystemEx.ToString">
+            <summary>
+            Converts the value of this <see cref="T:System.OperatingSystem"/> object to its equivalent string representation.
+            </summary>
+            <returns>The string representation of the values returned by the <see cref="P:System.OperatingSystemEx.Platform"/>, <see cref="P:System.OperatingSystemEx.Version"/>, and <see cref="P:System.OperatingSystemEx.ServicePack"/> properties.</returns>
+        </member>
+        <member name="P:System.OperatingSystemEx.VersionString">
+            <summary>
+            Gets the concatenated string representation of the platform identifier, version,
+            and service pack that are currently installed on the operating system.
+            </summary>
+            <value>The string representation of the values returned by the <see cref="P:System.OperatingSystemEx.Platform"/>, <see cref="P:System.OperatingSystemEx.Version"/>, and <see cref="P:System.OperatingSystemEx.ServicePack"/> properties.</value>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsOSPlatform(System.String)">
+            <summary>
+            Indicates whether the current application is running on the specified platform.
+            </summary>
+            <param name="platform">Case-insensitive platform name. Examples: Browser, Linux, FreeBSD, Android, iOS, macOS, tvOS, watchOS, Windows.</param>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsOSPlatformVersionAtLeast(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the OS with a >= version comparison. Used to guard APIs that were added in the given OS release.
+            </summary>
+            <param name="platform">Case-insensitive platform name. Examples: Browser, Linux, FreeBSD, Android, iOS, macOS, tvOS, watchOS, Windows.</param>
+            <param name="major">Major OS version number.</param>
+            <param name="minor">Minor OS version number (optional).</param>
+            <param name="build">Build OS version number (optional).</param>
+            <param name="revision">Revision OS version number (optional).</param>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsBrowser">
+            <summary>
+            Indicates whether the current application is running as WASM in a Browser.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsLinux">
+            <summary>
+            Indicates whether the current application is running on Linux.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsFreeBSD">
+            <summary>
+            Indicates whether the current application is running on FreeBSD.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsFreeBSDVersionAtLeast(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the FreeBSD version (returned by 'uname') with a >= version comparison. Used to guard APIs that were added in the given FreeBSD release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsAndroid">
+            <summary>
+            Indicates whether the current application is running on Android.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsAndroidVersionAtLeast(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the Android API level (returned by 'ro.build.version.sdk') with a >= version comparison. Used to guard APIs that were added in the given Android release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsIOS">
+            <summary>
+            Indicates whether the current application is running on iOS or MacCatalyst.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsIOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the iOS/MacCatalyst version (returned by 'libobjc.get_operatingSystemVersion') with a >= version comparison. Used to guard APIs that were added in the given iOS release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsMacOS">
+            <summary>
+            Indicates whether the current application is running on macOS.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsMacOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the macOS version (returned by 'libobjc.get_operatingSystemVersion') with a >= version comparison. Used to guard APIs that were added in the given macOS release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsMacCatalyst">
+            <summary>
+            Indicates whether the current application is running on Mac Catalyst.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsMacCatalystVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the Mac Catalyst version (iOS version as presented in Apple documentation) with a >= version comparison. Used to guard APIs that were added in the given Mac Catalyst release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsTvOS">
+            <summary>
+            Indicates whether the current application is running on tvOS.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsTvOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the tvOS version (returned by 'libobjc.get_operatingSystemVersion') with a >= version comparison. Used to guard APIs that were added in the given tvOS release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsWatchOS">
+            <summary>
+            Indicates whether the current application is running on watchOS.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsWatchOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the watchOS version (returned by 'libobjc.get_operatingSystemVersion') with a >= version comparison. Used to guard APIs that were added in the given watchOS release.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsWindows">
+            <summary>
+            Indicates whether the current application is running on Windows.
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystemEx.IsWindowsVersionAtLeast(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check for the Windows version (returned by 'RtlGetVersion') with a >= version comparison. Used to guard APIs that were added in the given Windows release.
+            </summary>
+        </member>
+        <member name="T:System.Progress`1">
+            <summary>
+            Provides an IProgress{T} that invokes callbacks for each reported progress value.
+            </summary>
+            <typeparam name="T">Specifies the type of the progress report value.</typeparam>
+            <remarks>
+            Any handler provided to the constructor or event handlers registered with
+            the <see cref="E:System.Progress`1.ProgressChanged"/> event are invoked through a
+            <see cref="T:System.Threading.SynchronizationContext"/> instance captured
+            when the instance is constructed.  If there is no current SynchronizationContext
+            at the time of construction, the callbacks will be invoked on the ThreadPool.
+            </remarks>
+        </member>
+        <member name="F:System.Progress`1._synchronizationContext">
+            <summary>The synchronization context captured upon construction.  This will never be null.</summary>
+        </member>
+        <member name="F:System.Progress`1._handler">
+            <summary>The handler specified to the constructor.  This may be null.</summary>
+        </member>
+        <member name="F:System.Progress`1._invokeHandlers">
+            <summary>A cached delegate used to post invocation to the synchronization context.</summary>
+        </member>
+        <member name="M:System.Progress`1.#ctor">
+            <summary>Initializes the <see cref="T:System.Progress`1"/>.</summary>
+        </member>
+        <member name="M:System.Progress`1.#ctor(System.Action{`0})">
+            <summary>Initializes the <see cref="T:System.Progress`1"/> with the specified callback.</summary>
+            <param name="handler">
+            A handler to invoke for each reported progress value.  This handler will be invoked
+            in addition to any delegates registered with the <see cref="E:System.Progress`1.ProgressChanged"/> event.
+            Depending on the <see cref="T:System.Threading.SynchronizationContext"/> instance captured by
+            the <see cref="T:System.Progress`1"/> at construction, it's possible that this handler instance
+            could be invoked concurrently with itself.
+            </param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="handler"/> is null (Nothing in Visual Basic).</exception>
+        </member>
+        <member name="E:System.Progress`1.ProgressChanged">
+            <summary>Raised for each reported progress value.</summary>
+            <remarks>
+            Handlers registered with this event will be invoked on the
+            <see cref="T:System.Threading.SynchronizationContext"/> captured when the instance was constructed.
+            </remarks>
+        </member>
+        <member name="M:System.Progress`1.OnReport(`0)">
+            <summary>Reports a progress change.</summary>
+            <param name="value">The value of the updated progress.</param>
+        </member>
+        <member name="M:System.Progress`1.System#IProgress{T}#Report(`0)">
+            <summary>Reports a progress change.</summary>
+            <param name="value">The value of the updated progress.</param>
+        </member>
+        <member name="M:System.Progress`1.InvokeHandlers(System.Object)">
+            <summary>Invokes the action and event callbacks.</summary>
+            <param name="state">The progress value.</param>
+        </member>
+        <member name="T:System.ProgressStatics">
+            <summary>Holds static values for <see cref="T:System.Progress`1"/>.</summary>
+            <remarks>This avoids one static instance per type T.</remarks>
+        </member>
+        <member name="F:System.ProgressStatics.DefaultContext">
+            <summary>A default synchronization context that targets the ThreadPool.</summary>
+        </member>
+        <member name="T:System.StringEx">
+            <summary>
+            Represents text as a sequence of UTF-16 code units.
+            </summary>
+        </member>
+        <member name="M:System.StringEx.Join(System.String,System.Object[])">
+            <summary>
+            Concatenates the elements of an object array, using the specified separator between each element.
+            </summary>
+            <param name="separator">The string to use as a separator. <paramref name="separator"/> is included in
+            the returned string only if <paramref name="values"/> has more than one element.</param>
+            <param name="values">An array that contains the elements to concatenate.</param>
+            <returns>A string that consists of the elements of <paramref name="values"/> delimited by the <paramref name="separator"/> string.
+            <para>-or-</para><see cref="F:System.String.Empty"/> if <paramref name="values"/> has zero elements.<para>-or-</para>
+            .NET Framework only: <see cref="F:System.String.Empty"/> if the first element of <paramref name="values"/> is <see langword="null"/>.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="values"/> is <see langword="null"/>.</exception>
+        </member>
+        <member name="M:System.StringEx.Join``1(System.String,System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Concatenates the members of a collection, using the specified separator between each member.
+            </summary>
+            <typeparam name="T">The type of the members of <paramref name="values"/>.</typeparam>
+            <param name="separator">The string to use as a separator. <paramref name="separator"/> is included in
+            the returned string only if <paramref name="values"/> has more than one element.</param>
+            <param name="values">A collection that contains the objects to concatenate.</param>
+            <returns>A string that consists of the elements of <paramref name="values"/> delimited by the <paramref name="separator"/> string.
+            <para>-or-</para><see cref="F:System.String.Empty"/> if <paramref name="values"/> has zero elements.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="values"/> is <see langword="null"/>.</exception>
+        </member>
+        <member name="M:System.StringEx.Join(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Concatenates the members of a constructed <see cref="T:System.Collections.Generic.IEnumerable`1"/> collection of type <see cref="T:System.String"/>,
+            using the specified separator between each member.
+            </summary>
+            <param name="separator">The string to use as a separator. <paramref name="separator"/> is included in
+            the returned string only if values has more than one element.</param>
+            <param name="values">A collection that contains the strings to concatenate.</param>
+            <returns>A string that consists of the elements of <paramref name="values"/> delimited by the <paramref name="separator"/> string.
+            <para>-or-</para><see cref="F:System.String.Empty"/> if <paramref name="values"/> has zero elements.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="values"/> is <see langword="null"/>.</exception>
+        </member>
+        <member name="M:System.StringEx.IsNullOrWhiteSpace(System.String)">
+            <summary>
+            Indicates whether a specified string is <see langword="null"/>, empty, or consists only of white-space characters.
+            </summary>
+            <param name="value">The string to test.</param>
+            <returns><see langword="true"/> if the <paramref name="value"/> parameter is <see langword="null"/> or <see cref="F:System.String.Empty"/>,
+            or if <paramref name="value"/> consists exclusively of white-space characters.</returns>
+        </member>
+        <member name="T:System.Text.StringBuilderEx">
+            <summary>
+            Represents a mutable string of characters. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:System.Text.StringBuilderEx.Clear(System.Text.StringBuilder)">
+            <summary>
+            Removes all characters from the current <see cref="T:System.Text.StringBuilder"/> instance.
+            </summary>
+            <param name="builder">The <see cref="T:System.Text.StringBuilder"/> to removes all characters.</param>
+            <returns>An object whose <see cref="P:System.Text.StringBuilder.Length"/> is 0 (zero).</returns>
+        </member>
+        <member name="T:System.Threading.SpinWait">
+            <summary>
+            Provides support for spin-based waiting.
+            </summary>
+            <remarks>
+            <para>
+            <see cref="T:System.Threading.SpinWait"/> encapsulates common spinning logic. On single-processor machines, yields are
+            always used instead of busy waits, and on computers with Intel(R) processors employing Hyper-Threading
+            technology, it helps to prevent hardware thread starvation. SpinWait encapsulates a good mixture of
+            spinning and true yielding.
+            </para>
+            <para>
+            <see cref="T:System.Threading.SpinWait"/> is a value type, which means that low-level code can utilize SpinWait without
+            fear of unnecessary allocation overheads. SpinWait is not generally useful for ordinary applications.
+            In most cases, you should use the synchronization classes provided by the .NET Framework, such as
+            <see cref="T:System.Threading.Monitor"/>. For most purposes where spin waiting is required, however,
+            the <see cref="T:System.Threading.SpinWait"/> type should be preferred over the <see
+            cref="M:System.Threading.Thread.SpinWait(System.Int32)"/> method.
+            </para>
+            <para>
+            While SpinWait is designed to be used in concurrent applications, it is not designed to be
+            used from multiple threads concurrently.  SpinWait's members are not thread-safe.  If multiple
+            threads must spin, each should use its own instance of SpinWait.
+            </para>
+            </remarks>
+        </member>
+        <member name="F:System.Threading.SpinWait.SpinCountforSpinBeforeWait">
+             <summary>
+             A suggested number of spin iterations before doing a proper wait, such as waiting on an event that becomes signaled
+             when the resource becomes available.
+             </summary>
+             <remarks>
+             These numbers were arrived at by experimenting with different numbers in various cases that currently use it. It's
+             only a suggested value and typically works well when the proper wait is something like an event.
+            
+             Spinning less can lead to early waiting and more context switching, spinning more can decrease latency but may use
+             up some CPU time unnecessarily. Depends on the situation too, for instance SemaphoreSlim uses more iterations
+             because the waiting there is currently a lot more expensive (involves more spinning, taking a lock, etc.). It also
+             depends on the likelihood of the spin being successful and how long the wait would be but those are not accounted
+             for here.
+             </remarks>
+        </member>
+        <member name="P:System.Threading.SpinWait.Count">
+            <summary>
+            Gets the number of times <see cref="M:System.Threading.SpinWait.SpinOnce"/> has been called on this instance.
+            </summary>
+        </member>
+        <member name="P:System.Threading.SpinWait.NextSpinWillYield">
+            <summary>
+            Gets whether the next call to <see cref="M:System.Threading.SpinWait.SpinOnce"/> will yield the processor, triggering a
+            forced context switch.
+            </summary>
+            <value>Whether the next call to <see cref="M:System.Threading.SpinWait.SpinOnce"/> will yield the processor, triggering a
+            forced context switch.</value>
+            <remarks>
+            On a single-CPU machine, <see cref="M:System.Threading.SpinWait.SpinOnce"/> always yields the processor. On machines with
+            multiple CPUs, <see cref="M:System.Threading.SpinWait.SpinOnce"/> may yield after an unspecified number of calls.
+            </remarks>
+        </member>
+        <member name="M:System.Threading.SpinWait.SpinOnce">
+            <summary>
+            Performs a single spin.
+            </summary>
+            <remarks>
+            This is typically called in a loop, and may change in behavior based on the number of times a
+            <see cref="M:System.Threading.SpinWait.SpinOnce"/> has been called thus far on this instance.
+            </remarks>
+        </member>
+        <member name="M:System.Threading.SpinWait.SpinOnce(System.Int32)">
+            <summary>
+            Performs a single spin.
+            </summary>
+            <param name="sleep1Threshold">
+            A minimum spin count after which <code>Thread.Sleep(1)</code> may be used. A value of <code>-1</code> may be used to
+            disable the use of <code>Thread.Sleep(1)</code>.
+            </param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            <paramref name="sleep1Threshold"/> is less than <code>-1</code>.
+            </exception>
+            <remarks>
+            This is typically called in a loop, and may change in behavior based on the number of times a
+            <see cref="M:System.Threading.SpinWait.SpinOnce"/> has been called thus far on this instance.
+            </remarks>
+        </member>
+        <member name="M:System.Threading.SpinWait.Reset">
+            <summary>
+            Resets the spin counter.
+            </summary>
+            <remarks>
+            This makes <see cref="M:System.Threading.SpinWait.SpinOnce"/> and <see cref="P:System.Threading.SpinWait.NextSpinWillYield"/> behave as though no calls
+            to <see cref="M:System.Threading.SpinWait.SpinOnce"/> had been issued on this instance. If a <see cref="T:System.Threading.SpinWait"/> instance
+            is reused many times, it may be useful to reset it to avoid yielding too soon.
+            </remarks>
+        </member>
+        <member name="M:System.Threading.SpinWait.SpinUntil(System.Func{System.Boolean})">
+            <summary>
+            Spins until the specified condition is satisfied.
+            </summary>
+            <param name="condition">A delegate to be executed over and over until it returns true.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="condition"/> argument is null.</exception>
+        </member>
+        <member name="M:System.Threading.SpinWait.SpinUntil(System.Func{System.Boolean},System.TimeSpan)">
+            <summary>
+            Spins until the specified condition is satisfied or until the specified timeout is expired.
+            </summary>
+            <param name="condition">A delegate to be executed over and over until it returns true.</param>
+            <param name="timeout">
+            A <see cref="T:System.TimeSpan"/> that represents the number of milliseconds to wait,
+            or a TimeSpan that represents -1 milliseconds to wait indefinitely.</param>
+            <returns>True if the condition is satisfied within the timeout; otherwise, false</returns>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="condition"/> argument is null.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="timeout"/> is a negative number
+            other than -1 milliseconds, which represents an infinite time-out -or- timeout is greater than
+            <see cref="F:System.Int32.MaxValue"/>.</exception>
+        </member>
+        <member name="M:System.Threading.SpinWait.SpinUntil(System.Func{System.Boolean},System.Int32)">
+            <summary>
+            Spins until the specified condition is satisfied or until the specified timeout is expired.
+            </summary>
+            <param name="condition">A delegate to be executed over and over until it returns true.</param>
+            <param name="millisecondsTimeout">The number of milliseconds to wait, or <see
+            cref="F:System.Threading.Timeout.Infinite"/> (-1) to wait indefinitely.</param>
+            <returns>True if the condition is satisfied within the timeout; otherwise, false</returns>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="condition"/> argument is null.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="millisecondsTimeout"/> is a
+            negative number other than -1, which represents an infinite time-out.</exception>
+        </member>
+        <member name="T:System.Threading.TimeoutHelper">
+            <summary>
+            A helper class to capture a start time using <see cref="P:System.Environment.TickCount"/> as a time in milliseconds.
+            Also updates a given timeout by subtracting the current time from the start time.
+            </summary>
+        </member>
+        <member name="M:System.Threading.TimeoutHelper.GetTime">
+            <summary>
+            Returns <see cref="P:System.Environment.TickCount"/> as a start time in milliseconds as a <see cref="T:System.UInt32"/>.
+            <see cref="P:System.Environment.TickCount"/> rolls over from positive to negative every ~25 days, then ~25 days to back to positive again.
+            <see cref="T:System.UInt32"/> is used to ignore the sign and double the range to 50 days.
+            </summary>
+        </member>
+        <member name="M:System.Threading.TimeoutHelper.UpdateTimeOut(System.UInt32,System.Int32)">
+            <summary>
+            Helper function to measure and update the elapsed time
+            </summary>
+            <param name="startTime"> The first time (in milliseconds) observed when the wait started</param>
+            <param name="originalWaitMillisecondsTimeout">The original wait timeout in milliseconds</param>
+            <returns>The new wait time in milliseconds, or -1 if the time expired</returns>
+        </member>
+        <member name="T:System.Threading.Volatile">
+            <summary>
+            Contains methods for performing volatile memory operations.
+            </summary>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Boolean@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Byte@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Double@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Int16@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Int32@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Int64@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.IntPtr@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.SByte@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.Single@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.UInt16@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.UInt32@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.UInt64@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read(System.UIntPtr@)">
+            <summary>
+            Reads the value of the specified field. On systems that require it, inserts a memory barrier
+            that prevents the processor from reordering memory operations as follows: If a read or write
+            appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <returns>The value that was read. This value is the latest written by any processor in
+            the computer, regardless of the number of processors or the state of processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Read``1(``0@)">
+            <summary>
+            Reads the object reference from the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read
+            or write appears after this method in the code, the processor cannot move it before this method.
+            </summary>
+            <param name="location">The field to read.</param>
+            <typeparam name="T">The type of field to read. This must be a reference type, not a value type.</typeparam>
+            <returns>The reference to <typeparamref name="T"/> that was read. This reference is the latest
+            written by any processor in the computer, regardless of the number of processors or the state of
+            processor cache.</returns>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Boolean@,System.Boolean)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Byte@,System.Byte)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Double@,System.Double)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Int16@,System.Int16)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Int32@,System.Int32)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Int64@,System.Int64)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a memory
+            operation appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.IntPtr@,System.IntPtr)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.SByte@,System.SByte)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.Single@,System.Single)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.UInt16@,System.UInt16)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.UInt32@,System.UInt32)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.UInt64@,System.UInt64)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write(System.UIntPtr@,System.UIntPtr)">
+            <summary>
+            Writes the specified value to the specified field. On systems that require it, inserts a memory
+            barrier that prevents the processor from reordering memory operations as follows: If a read or
+            write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the value is written.</param>
+            <param name="value">The value to write. The value is written immediately so that it is visible
+            to all processors in the computer.</param>
+        </member>
+        <member name="M:System.Threading.Volatile.Write``1(``0@,``0)">
+            <summary>
+            Writes the specified object reference to the specified field. On systems that require it, inserts
+            a memory barrier that prevents the processor from reordering memory operations as follows: If a
+            read or write appears before this method in the code, the processor cannot move it after this method.
+            </summary>
+            <param name="location">The field where the object reference is written.</param>
+            <param name="value">The object reference to write. The reference is written immediately so that it
+            is visible to all processors in the computer.</param>
+            <typeparam name="T">The type of field to write. This must be a reference type, not a value type.</typeparam>
+        </member>
+    </members>
+</doc>
